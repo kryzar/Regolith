@@ -1,0 +1,15 @@
+    for(unsigned i = 0; i < meshpoints / 2; i++)
+    {
+        u[i][0]             = -26.;   //  down
+        u[meshpoints][i]    = 23;   //  right
+        u[i][meshpoints]    = -23;  //  up
+        u[0][i]             = 42;  //  left
+    }
+    
+    for(unsigned i = meshpoints / 2 + 1; i < meshpoints; i++)
+    {
+        u[i][0]             = 73;   //  down
+        u[meshpoints][i]    = -12;   //  right
+        u[i][meshpoints]    = 82;  //  up
+        u[0][i]             = -1.;  //  left
+    }

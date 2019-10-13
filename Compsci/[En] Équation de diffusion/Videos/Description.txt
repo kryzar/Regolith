@@ -1,0 +1,10 @@
+Diffusion equation in one dimension implemented with an explicit scheme with finite-difference methods.
+
+This video shows the diffusion of heat on a thin metal stem with initial 0° temperature everywhere except on the right boundary point. This boundary point is constantly and homogeneously heated and has a temperature 1 (the equations are scaled and normalized), and this video shows how the heat is diffused in the stem. We use 100 discretization space-points (dx=dy=1/100) and 20000 discretization time-points (dt=1/20000).
+
+The code is written in C++ and the plots are made with Gnuplot for an university project (FYS3150, University of Oslo) and is available here : https://github.com/kryzar/Calypso. You are free to use it, modify it and report comments and mistakes.
+
+Complements :
+- Implicit and explicit methods : https://en.wikipedia.org/wiki/Explicit_and_implicit_methods
+- Stability of the methods of the programs : https://en.wikipedia.org/wiki/Von_Neumann_stability_analysis
+- Documents on this (fantastic) course and on this project : https://github.com/CompPhysics/ComputationalPhysics
